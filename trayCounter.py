@@ -74,6 +74,6 @@ if __name__ == "__main__":
         ))
 
     trayImage = Image.new('RGB', (72, 72), color=(255, 255, 255))
-    trayIcon = Icon("tray counter", trayImage, str(counter), trayMenu)
+    trayIcon = Icon("Tray Counter", trayImage, str(counter), trayMenu)
     refeshTray()
     trayIcon.run()
